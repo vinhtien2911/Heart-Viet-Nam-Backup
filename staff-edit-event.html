@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Edit Event</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="row justify-content-center">
+    <div class="col-12 col-lg-10 col-xl-8 mx-auto">
+        <h2 class="h3 mb-4 page-title">Edit Event</h2>
+        <div class="my-4">
+            <form>
+                <hr class="my-4" />
+                <div class="form-group">
+                    <label for="title">Chủ đề</label>
+                    <input type="text" id="title" class="form-control" placeholder="HẬU QUẢ TRẦM CẢM SAU SINH ĐÁNG SỢ RA SAO? (Phần 2)"/>    
+                </div>
+                <div class="form-group">
+                    <label for="inputContent">Nội dung</label>
+                    <textarea class="form-content" id="inputContent" placeholder="Tuần trước HEART đã điểm qua một số hậu quả vô cùng đáng sợ của căn bệnh trầm cảm sau sinh khi tác động lên tâm lý của người mẹ. 
+                    Để nối tiếp phần một, hôm nay, bạn hãy cùng HEART tìm hiểu thêm một số ảnh hưởng tiêu cực của căn bệnh này lên trẻ nhỏ - người gần gũi với người mẹ nhất nhé!
+                    Khi gặp vấn đề về trầm cảm, mối liên kết giữa mẹ và con sẽ gặp vấn đề vì đứa bé sẽ không nhận đủ tình yêu thương cũng như sự quan tâm từ người mẹ của mình. Chính vì thế mà hậu quả của vấn đề này cũng sẽ tác động lên cả đứa bé. Nó sẽ ảnh hưởng trên hai khía cạnh bao gồm vấn đề cảm xúc và vấn đề về hành vi.
+                    Vấn đề về cảm xúc: Trẻ con ở giai đoạn đầu đời vô cùng nhạy cảm với những cảm xúc của mọi người xung quanh. Từ đó những đứa bé sẽ hình thành nên tính cách cũng như cách thể hiện cảm xúc của chúng. Tuy nhiên, nếu người mẹ mắc chứng trầm cảm sau sinh thì trẻ nhỏ sẽ thường nhìn nhận và tiếp xúc với các cảm xúc tiêu cực nhiều hơn so với số đông còn lại. Sau đó, chúng sẽ hình thành nên những sự tiêu cực như tự ti, dễ lo âu và đôi khi vô cùng sợ hãi mọi người xung quanh.
+                    Vấn đề về hành vi: Trong độ tuổi phát triển, trẻ em luôn sẽ có những câu hỏi hay sự tò mò nhất định về mọi thứ xung quanh chúng. Thế nên, đa phần hành động của chúng sẽ dựa trên nhận thức mà đứa bé tiếp thu được từ người gần gũi nhất, đặc biệt là người mẹ. Điều này dẫn đến một số hành vi bất thường như việc đứa trẻ sẽ dễ bị kích động hoặc thu mình lại và tránh những lời nói thể hiện sự quan tâm từ những người xung quanh.
+                    Chính vì thế, ngoài việc chúng ta phải quan tâm những người mẹ bầu thì hãy để ý, săn sóc cũng như yêu thương những đứa trẻ nữa nhé!
+                    #HeartVN #SBC2022 #Vietnam #TramCamSauSinh #TCSS #MevaBe"></textarea> 
+                </div>
+                <div class="form-group">
+                    <label for="inputImage">Image</label>
+                    <output type="text" class="form-control" id="inputImage"></output> 
+                    <button class="btn btn-primary" type="button" style="margin-top: 10px;">Upload image</button>
+                </div>
+                <div class="form-group">
+                    <label for="inputVideo">Image</label>
+                    <output type="text" class="form-control" id="inputVideo"></output> 
+                    <button class="btn btn-primary" type="button" style="margin-top: 10px;">Upload video</button>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<style type="text/css">
+body{
+    color: #8e9194;
+    background-color: #f4f6f9;
+}
+.avatar-xl img {
+    width: 110px;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.text-muted {
+    color: #aeb0b4 !important;
+}
+.text-muted {
+    font-weight: 300;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d5154;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #eef0f3;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-content {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 300px);
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d5154;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #eef0f3;
+    border-radius: 0.25rem;
+}
+</style>
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
